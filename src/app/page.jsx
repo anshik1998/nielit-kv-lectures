@@ -62,7 +62,7 @@ export default function Home() {
             Anshik Bansal
           </a>
           <br />
-          Guest Faculty at NIELIT, Delhi Centre
+          Faculty at NIELIT, Delhi Centre
         </div>
       </footer>
     </MainLayout>

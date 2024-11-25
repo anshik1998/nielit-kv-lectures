@@ -23,7 +23,7 @@ function LecturePageContent() {
     return (
         <MainLayout sidebar={<SidebarNav lectures={lectures} />}>
             <main className="flex flex-col min-h-screen p-4 sm:p-8">
-                <h1 className="text-4xl sm:text-5xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-sidebar-primary">
+                <h1 className="text-3xl sm:text-4xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-sidebar-primary">
                     {lecture.title}
                 </h1>
                 <Presentation

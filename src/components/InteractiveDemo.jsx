@@ -11,6 +11,20 @@ import { ComputerVisionDemo } from "./demos/ComputerVisionDemo"
 import { NLPGamesDemo } from "./demos/NLPGamesDemo"
 import { AIDetectiveDemo } from "./demos/AIDetectiveDemo"
 import { DomainWorkshopDemo } from "./demos/DomainWorkshopDemo"
+import { SymbolMasterDemo } from "./demos/SymbolMasterDemo"
+import { AlgorithmBuilderDemo } from "./demos/AlgorithmBuilderDemo"
+import { RobotInstructionsDemo } from "./demos/RobotInstructionsDemo"
+import { ProblemSolverDemo } from "./demos/ProblemSolverDemo"
+import { TaskMasterDemo } from "./demos/TaskMasterDemo"
+import { FlowchartBuilderDemo } from "./demos/FlowchartBuilderDemo"
+import { HelloPythonDemo } from "./demos/HelloPythonDemo"
+import { VariableExplorerDemo } from "./demos/VariableExplorerDemo"
+import { NumberGamesDemo } from "./demos/NumberGamesDemo"
+import { StringMagicDemo } from "./demos/StringMagicDemo"
+import { ListBuilderDemo } from "./demos/ListBuilderDemo"
+import { ChatWithPythonDemo } from "./demos/ChatWithPythonDemo"
+import { NumberWizardDemo } from "./demos/NumberWizardDemo"
+import { BuildABotDemo } from "./demos/BuildABotDemo"
 
 const DEMO_COMPONENTS = {
   "Meet an AI Assistant": AIAssistantDemo,
@@ -21,7 +35,21 @@ const DEMO_COMPONENTS = {
   "AI Vision Explorer": ComputerVisionDemo,
   "Language Games with AI": NLPGamesDemo,
   "AI Detective": AIDetectiveDemo,
-  "AI Domain Workshop": DomainWorkshopDemo
+  "AI Domain Workshop": DomainWorkshopDemo,
+  "Symbol Master": SymbolMasterDemo,
+  "Algorithm Builder": AlgorithmBuilderDemo,
+  "Robot Instructions": RobotInstructionsDemo,
+  "Problem Solver": ProblemSolverDemo,
+  "Task Master": TaskMasterDemo,
+  "Flowchart Builder": FlowchartBuilderDemo,
+  "Hello Python!": HelloPythonDemo,
+  "Variable Explorer": VariableExplorerDemo,
+  "Number Games": NumberGamesDemo,
+  "String Magic": StringMagicDemo,
+  "List Builder": ListBuilderDemo,
+  "Chat with Python": ChatWithPythonDemo,
+  "Number Wizard": NumberWizardDemo,
+  "Build-A-Bot": BuildABotDemo,
 };
 
 export function InteractiveDemo({ demo, onEnd }) {

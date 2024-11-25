@@ -11,7 +11,7 @@ export function NLPGamesDemo() {
     const games = {
         translate: {
             title: "Language Translator",
-            description: "Try translating simple phrases",
+            description: "Try translating simple phrases, e.g. hello, thank you, good morning",
             examples: [
                 { input: "hello", output: "hola (Spanish)" },
                 { input: "thank you", output: "gracias (Spanish)" },
@@ -20,7 +20,7 @@ export function NLPGamesDemo() {
         },
         complete: {
             title: "Sentence Completer",
-            description: "Let AI complete your sentence",
+            description: "Let AI complete your sentence, e.g. The weather is, I love to, My favorite food is",
             examples: [
                 { input: "The weather is", output: "...beautiful today!" },
                 { input: "I love to", output: "...play with my friends" },
@@ -29,7 +29,7 @@ export function NLPGamesDemo() {
         },
         chat: {
             title: "Simple Chatbot",
-            description: "Have a conversation with AI",
+            description: "Have a conversation with AI, e.g. How are you?, What's your favorite color?, Tell me a joke",
             examples: [
                 { input: "How are you?", output: "I'm doing great! How about you?" },
                 { input: "What's your favorite color?", output: "I like all colors, especially blue!" },

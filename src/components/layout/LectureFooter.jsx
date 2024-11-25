@@ -20,7 +20,7 @@ export function LectureFooter() {
                             Anshik Bansal
                         </a>
                     </div>
-                    <div>Guest Faculty at NIELIT, Delhi Centre</div>
+                    <div>Faculty at NIELIT, Delhi Centre</div>
                 </div>
             </div>
         </footer>
