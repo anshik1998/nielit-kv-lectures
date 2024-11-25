@@ -87,7 +87,7 @@ export function SymbolMasterDemo() {
         return (
             <div className="text-center space-y-4">
                 <h3 className="text-xl font-bold">🎉 Congratulations!</h3>
-                <p>You've mastered the flowchart symbols!</p>
+                <p>You&apos;ve mastered the flowchart symbols!</p>
                 <p>Final Score: {score}/5</p>
                 <Button onClick={resetGame}>Play Again</Button>
             </div>

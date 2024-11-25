@@ -139,7 +139,7 @@ export function AlgorithmBuilderDemo() {
         return (
             <div className="flex flex-col items-center gap-6 text-center">
                 <h3 className="text-xl font-bold">🎉 Congratulations!</h3>
-                <p>You've correctly arranged all the steps!</p>
+                <p>You&apos;ve correctly arranged all the steps!</p>
                 <Button onClick={resetTask}>Try Again</Button>
             </div>
         );

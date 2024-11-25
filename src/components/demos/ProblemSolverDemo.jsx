@@ -105,7 +105,7 @@ export function ProblemSolverDemo() {
         return (
             <div className="text-center space-y-4">
                 <h3 className="text-xl font-bold">🎉 Congratulations!</h3>
-                <p>You've mastered the problem-solving process!</p>
+                <p>You&apos;ve mastered the problem-solving process!</p>
                 <Button onClick={() => {
                     setCurrentStep(0);
                     setAnswers({});
