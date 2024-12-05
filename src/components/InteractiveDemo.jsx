@@ -25,6 +25,9 @@ import { ListBuilderDemo } from "./demos/ListBuilderDemo"
 import { ChatWithPythonDemo } from "./demos/ChatWithPythonDemo"
 import { NumberWizardDemo } from "./demos/NumberWizardDemo"
 import { BuildABotDemo } from "./demos/BuildABotDemo"
+import { PythonQuiz1 } from './demos/PythonQuiz1';
+import { PythonQuiz2 } from './demos/PythonQuiz2';
+import { PythonQuiz3 } from './demos/PythonQuiz3';
 
 const DEMO_COMPONENTS = {
   "Meet an AI Assistant": AIAssistantDemo,
@@ -50,6 +53,9 @@ const DEMO_COMPONENTS = {
   "Chat with Python": ChatWithPythonDemo,
   "Number Wizard": NumberWizardDemo,
   "Build-A-Bot": BuildABotDemo,
+  "Python Programming": PythonQuiz1,
+  "Python Programming 2": PythonQuiz2,
+  "Python Programming 3": PythonQuiz3
 };
 
 export function InteractiveDemo({ demo, onEnd }) {

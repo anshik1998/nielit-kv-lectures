@@ -1062,9 +1062,63 @@ export const lectures = [
                 ]
             }
         ]
+    },
+    {
+        id: "python-quizzes-practical",
+        title: "Quizzes and Practical",
+        sections: [
+            {
+                type: "slides",
+                title: "Programming Quiz I",
+                content: [
+                    {
+                        title: "Python Programming Quiz I",
+                        content: [
+                            ""
+                        ],
+                        demo: {
+                            title: "Python Programming",
+                            description: "Python programming examples"
+                        }
+                    }
+                ]
+            },
+            {
+                type: "slides",
+                title: "Programming Quiz II",
+                content: [
+                    {
+                        title: "Python Programming Quiz II",
+                        content: [
+                            ""
+                        ],
+                        demo: {
+                            title: "Python Programming 2",
+                            description: "Python programming examples 2"
+                        }
+                    }
+                ]
+            },
+            {
+                type: "slides",
+                title: "Programming Quiz III",
+                content: [
+                    {
+                        title: "Python Programming Quiz III",
+                        content: [
+                            ""
+                        ],
+                        demo: {
+                            title: "Python Programming 3",
+                            description: "Python programming examples 3"
+                        }
+                    }
+                ]
+            },
+        ]
     }
 ];
 
 export function getLecture(id) {
     return lectures.find(lecture => lecture.id === id);
-} 
+}
